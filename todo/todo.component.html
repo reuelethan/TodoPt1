@@ -1,0 +1,23 @@
+<body>
+  <div [ngClass]="'holder'">
+    <h1>TODO<span [ngClass]=" 'list-title' "> List </span> </h1>
+    <h4>A place to store your todos</h4>
+    <h2>Filter your To-Dos</h2>
+    <div [ngClass]="task-holder">
+      <div [ngClass]="'task-item'">1.{{task}} <span [ngClass]="'task-imcomplete'">Complete</span><a
+          [ngClass]="'xclose'"> 𝗫 </a>
+      </div>
+      <div [ngClass]="'task-item'">2.<span [ngClass]="'task-imcomplete'">Complete</span><a [ngClass]="'xclose'"> 𝗫 </a>
+      </div>
+      <div [ngClass]="'task-item'">3.<span [ngClass]="'task-imcomplete'">Complete</span><a [ngClass]="'xclose'"> 𝗫 </a>
+      </div>
+      <div [ngClass]="'task-item'">4. <span [ngClass]="'task-complete'"> Complete</span></div>
+      <div [ngClass]="'task-item'">5.<span [ngClass]="'task-imcomplete'">Complete</span><a [ngClass]="'xclose'"> 𝗫 </a>
+      </div>
+      <div [ngClass]="'task-item'">6.<span [ngClass]="'task-imcomplete'">Complete</span><a [ngClass]="'xclose'"> 𝗫 </a>
+      </div>
+    </div>
+    <h2>Add your To-Dos</h2>
+    <button> Add</button>
+  </div>
+</body>
